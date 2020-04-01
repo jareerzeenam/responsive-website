@@ -10,7 +10,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #3475ca;
+  background: #3a3c3f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    opacity: 0.18;
   }
 
   .content {
@@ -236,46 +236,63 @@
   text-align: center;
 }
 
-.imgBx2 {
-  background: url(../images/bg2.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-}
+.contactFrm {
+  position: relative;
+  width: 100%;
+  display: flex;
 
-.redbg {
-  background: url(../images/red.jpg) !important;
-  background-size: cover;
-  background-position: center;
-}
+  .redbg {
+    padding: 100px;
+    width: 50%;
+    background: url(../images/red.jpg) !important;
+    background-size: cover;
+    background-position: center;
+  }
 
-.form {
-  .inputBx {
-    margin-bottom: 40px;
-    input,
-    textarea {
-      width: 100%;
-      background: transparent;
-      box-shadow: none;
-      border: none;
-      outline: none;
-      padding: 10px 0;
-      font-size: 18px;
-      font-weight: 300;
-      color: #fff;
-      border-bottom: 2px solid #fff;
+  .imgBx2 {
+    background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+  }
 
-      &::placeholder {
+  .form {
+    .inputBx {
+      margin-bottom: 40px;
+      input,
+      textarea {
+        width: 100%;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: none;
+        padding: 10px 0;
+        font-size: 18px;
+        font-weight: 300;
         color: #fff;
-      }
-    }
+        border-bottom: 2px solid #fff;
 
-    input[type="submit"] {
-      width: 150px;
-      background: #fff;
-      color: #111;
-      cursor: pointer;
-      font-weight: 400;
+        &::placeholder {
+          color: #fff;
+        }
+      }
+
+      input[type="submit"] {
+        width: 150px;
+        background: #fff;
+        color: #111;
+        cursor: pointer;
+        font-weight: 400;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        transition: all 0.3s;
+
+        &:hover {
+          background: transparent;
+          border: 2px solid #fff;
+          color: #fff;
+        }
+      }
     }
   }
 }
@@ -327,6 +344,7 @@
     }
   }
 
+  // !About
   .about {
     flex-direction: column;
 
@@ -339,6 +357,7 @@
     }
   }
 
+  // ! Services
   .services {
     padding: 50px;
     .container {
@@ -352,6 +371,7 @@
     }
   }
 
+  // ! Technology
   .technology {
     padding: 50px;
     padding-top: 300px;
@@ -364,6 +384,7 @@
     }
   }
 
+  // !Client
   .client {
     padding: 50px;
 
@@ -372,6 +393,7 @@
     }
   }
 
+  // !Testimonials
   .testimonials {
     padding: 50px;
 
@@ -385,10 +407,24 @@
     }
   }
 
+  // !Contact
   .contact {
     padding: 50px;
   }
 
+  .contactFrm {
+    flex-direction: column;
+
+    .redbg,
+    .imgBx2 {
+      width: 100%;
+      padding: 50px;
+      min-height: 400px;
+      text-align: center;
+    }
+  }
+
+  // ! Footer
   .footer {
     padding: 20px 50px;
     flex-direction: column-reverse;

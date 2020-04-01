@@ -310,30 +310,90 @@
   }
 }
 
+// ! MEDIA QUERY
 @media (max-width: 991px) {
-    .banner{
-        padding: 50px;
-        header{
-            padding: 20px 50px;
-        }
-        .content{
-            h2{
-                font-size: 36px;
-            }
-            p{
-                font-size: 16px;
-            }
-        }
+  .banner {
+    padding: 50px;
+    header {
+      padding: 20px 50px;
     }
-
-    .about{
-        flex-direction: column;
-
-        .contentBx,.imgBx{
-            width: 100%;
-            padding: 50px;
-            min-height: 400px;
-            text-align: center;
-        }
+    .content {
+      h2 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
+  }
+
+  .about {
+    flex-direction: column;
+
+    .contentBx,
+    .imgBx {
+      width: 100%;
+      padding: 50px;
+      min-height: 400px;
+      text-align: center;
+    }
+  }
+
+  .services {
+    padding: 50px;
+    .container {
+      justify-content: center;
+      margin-top: 20px;
+      .serviceBx {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+      }
+    }
+  }
+
+  .technology {
+    padding: 50px;
+    padding-top: 300px;
+    justify-content: center;
+    flex-direction: column;
+
+    .imgBx {
+      margin-top: 40px;
+      max-width: 250px;
+    }
+  }
+
+  .client {
+    padding: 50px;
+
+    .imgBx {
+      justify-content: center;
+    }
+  }
+
+  .testimonials {
+    padding: 50px;
+
+    .contentBx {
+      padding: 60px 40px;
+      max-width: 550px;
+      margin-bottom: 40px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .contact {
+    padding: 50px;
+  }
+
+  .footer {
+    padding: 20px 50px;
+    flex-direction: column-reverse;
+    ul {
+      margin-bottom: 20px;
+    }
+  }
 }

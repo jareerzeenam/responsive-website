@@ -191,3 +191,40 @@
         }
     }
 }
+
+//! testimonials
+.testimonials{
+    position: relative;
+    padding: 100px;
+    background: #12222d;
+    text-align: center;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        flex-wrap: wrap;
+
+        .contentBx{
+            background: #fff;
+            padding: 60px 50px;
+            width: 550px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+
+            p{
+                font-style: italic;
+            }
+
+            h3{
+                width: 100%;
+                text-align: end;
+                font-weight: 500;
+                color: #3f8ffc;
+            }
+        }
+    }
+}

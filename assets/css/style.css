@@ -281,4 +281,70 @@
   font-weight: 500;
   color: #3f8ffc;
 }
+
+.contact {
+  padding: 100px;
+  background: #162c3b;
+  text-align: center;
+}
+
+.imgBx2 {
+  background: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.redbg {
+  background: url(../images/red.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.form .inputBx {
+  margin-bottom: 40px;
+}
+
+.form .inputBx input,
+.form .inputBx textarea {
+  width: 100%;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.form .inputBx input::-webkit-input-placeholder,
+.form .inputBx textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form .inputBx input:-ms-input-placeholder,
+.form .inputBx textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form .inputBx input::-ms-input-placeholder,
+.form .inputBx textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.form .inputBx input::placeholder,
+.form .inputBx textarea::placeholder {
+  color: #fff;
+}
+
+.form .inputBx input[type="submit"] {
+  width: 150px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */

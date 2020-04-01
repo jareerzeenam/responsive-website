@@ -1,0 +1,14 @@
+{
+  "name": "responsive-website",
+  "version": "1.0.0",
+  "description": "This is a Mobile friendly website created from scratch using HTML & SCSS",
+  "main": "index.js",
+  "homepage": "https://jareerzeenam.github.io/responsive-website/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  
+  "author": "Jareer Zeenam",
+  "license": "ISC"
+}
